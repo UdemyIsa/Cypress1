@@ -1,0 +1,9 @@
+Respuesta a que no podía seleccionar una entidad del combo
+https://stackoverflow.com/questions/68388680/cy-select-can-only-be-called-on-a-select-your-subject-is-a-div-class-col
+
+Documentación de Cypress
+https://docs.cypress.io/guides/overview/why-cypress
+
+Código ASCII
+https://elcodigoascii.com.ar/codigos-ascii/comillas-simples-apostrofes-codigo-ascii-39.html
+
