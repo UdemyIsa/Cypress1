@@ -7,3 +7,50 @@ https://docs.cypress.io/guides/overview/why-cypress
 Código ASCII
 https://elcodigoascii.com.ar/codigos-ascii/comillas-simples-apostrofes-codigo-ascii-39.html
 
+Para inicir con el git:
+git init
+
+Para copiar todo el proyecto completo al git:
+git add .
+
+Para saber si hay cambios en el folder:
+git status
+
+Para planchar los cambios:
+git commit -m "Descripción"
+
+Para recuperar un archivo eliminado, usar el comando:
+git checkout -- .
+
+Para subir varios archivos del mismo tipo:
+git add *.(terminación del archivo)
+Ejemplo: git add *.xlsx
+
+Siempre después de hacer un add, va un:
+git commit -m "Descripción del cambio"
+
+Para quitar los archivos de un mismo tipo, usamos:
+git reset *.(terminación del archivo)
+Ejemplo: git reset *.mp4
+
+Averiguar para que sirve el comando:
+git log --oneline --decorate --all --graph
+
+
+Comando para indicar archivos sin guardar
+git status -s
+
+Alias
+git config --global alias.lg "log --oneline --decorate --all --graph"
+
+Configuración del git
+git config --global -e
+
+Para moverse en el tiempo y regresar a una versión anterior se usa el comando:
+git reset --hard #####
+
+El comando que nos indica todos los cambios es:
+git reflog
+
+
+
